@@ -136,7 +136,7 @@ resource "aws_instance" "wordpress" {
   subnet_id =  aws_subnet.task3subnet.id
   
   tags = {
-    Name = "wordpress-os"
+    Name = "Wordpress-os"
   }
 }
 
